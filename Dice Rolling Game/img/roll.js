@@ -1,0 +1,1 @@
+<div class="tenor-gif-embed" data-postid="21294280" data-share-method="host" data-aspect-ratio="1.03896" data-width="100%"><a href="https://tenor.com/view/dice-gif-21294280">Dice Sticker</a>from <a href="https://tenor.com/search/dice-stickers">Dice Stickers</a></div> <script type="text/javascript" async src="https://tenor.com/embed.js"></script>

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="main.css">
+    <title>Dice Game</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@11/dist/sweetalert2.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Let's Roll</h1>
+
+        <div class="dice">
+            <h2 class="Player1">Player 1</h2>
+            <img src="./img/dice-6.png" alt="dice-6" class="img1" style="max-width: 150px ">
+        </div>
+        <div class="dice">
+            <h2 class="Player2">Player 2</h2>
+            <img src="./img/dice-6.png" alt="dice-6" class="img2" style="max-width: 150px ">
+        </div>
+    </div>
+
+    <div class="container-bottom">
+        <div>
+            <button type="button" class="btnRoll" onclick="rollTheDice()">Roll The Dice</button>
+        </div>
+
+        <div class="container-name">
+            <div class="edit1">
+                <button type="button" class="btnName" onclick="editNames1()">Player 1 Name</button>
+            </div>
+            <div class="edit2">
+                <button type="button" class="btnName" onclick="editNames2()">Player 2 Name</button>
+            </div>
+        </div>
+    </div>
+    <script src="app.js">
+    </script>
+</body>
+
+</html>
